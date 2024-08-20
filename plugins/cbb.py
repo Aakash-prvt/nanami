@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n┃ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 : <a href='https://t.me/Aakash1230'>Aakash</a>\n┃ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='tg://user?id={OWNER_ID}'> 𝖶𝖺𝗂𝖿𝗎 </a>\n┃ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <code>𝖯𝗒𝗍𝗁𝗈𝗇3</code>\n┃ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href='https://docs.pyrogram.org/'>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 {__version__}</a>\n┃ 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 : <a href=https://t.me/Aakash1230>𝖳𝖺𝗅𝗄 𝖳𝗈 𝖧𝗂𝗆</a>\n┃ 𝖬𝖺𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : <a href=https://t.me/Anime_Warior>​Anime Warriors</a>\n┃ Ongoing 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : <a href=https://t.me/Ongoing_warior>Ongoing Warriors</a>\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
+            text = f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n┃ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 : <a href='https://t.me/Aakash1230'>Aakash</a>\n┃ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='tg://user?id={OWNER_ID}'> 𝖶𝖺𝗂𝖿𝗎 </a>\n┃ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <code>𝖯𝗒𝗍𝗁𝗈𝗇3</code>\n┃ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href='https://docs.pyrogram.org/'>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 {__version__}</a>\n┃ 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 : <a href=https://t.me/Aakash1230>𝖳𝖺𝗅𝗄 𝖳𝗈 𝖧𝗂𝗆</a>\n┃ Check Out : @Romance_Library\n┃ Harem Animes : @Harem_Library\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
